@@ -4,6 +4,9 @@ fn main() {
         x + 1 // rust에서는 ;이 없으면 return 한다는 의미로 사용됨.
     };
     println!("{}", y);
+
+    let five = five();
+    println!("using five() function : {}", five);
 }
 
 fn five() -> i32 {
