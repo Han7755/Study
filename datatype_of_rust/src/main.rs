@@ -43,4 +43,6 @@ fn main() {
         "value of var1 : {}\nvalue of var2 : {}\nvalue of var3 : {}\n",
         var1, var2, var3
     );
+
+    // Array Type
 }
