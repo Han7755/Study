@@ -34,4 +34,13 @@ fn main() {
         "value of x : {}\nvalue of y : {}\nvalue of z : {}\n",
         x, y, z
     );
+
+    // tuple 을 인덱스로 접근하기
+    let var1 = tup.0;
+    let var2 = tup.1;
+    let var3 = tup.2;
+    println!(
+        "value of var1 : {}\nvalue of var2 : {}\nvalue of var3 : {}\n",
+        var1, var2, var3
+    );
 }
