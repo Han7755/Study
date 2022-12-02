@@ -28,7 +28,7 @@ fn main() {
     println!("{}", emoji);
 
     // Compound Type 변수들
-    let tup: (i64, f64, u8) = (500, 6.4, 1); // tuple 타입은 괄호를 사용하여 명시적으로 타입 설정 가능
+    let tup: (i64, f64, u8) = (500, 6.4, 1); // tuple 타입은 괄호를 사용하여 명시적으로 타입 설정 가능(길이 변경 불가)
     let (x, y, z) = tup; // tuple 타입 변수의 값을 쪼개서 저장하는 방법
     println!(
         "value of x : {}\nvalue of y : {}\nvalue of z : {}\n",
