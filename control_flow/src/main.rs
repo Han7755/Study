@@ -8,4 +8,7 @@ fn main() {
     } else {
         println!("number is greater than 5");
     }
+
+    let condition = true;
+    let number = if condition { 5 } else { 6 };
 }
