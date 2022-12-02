@@ -9,6 +9,9 @@ fn main() {
     let mut y: i32 = 2998; // let mut 으로 수정할 수 있는 변수를 선언할 수 있음
     println!("{}", y);
 
-    y = 3200;
+    y = 3200; // 수정 가능
     println!("{}", y);
+
+    let spaces: &str = "   "; // 문자열 변수 생성
+    let spaces: usize = spaces.len(); // let으로 다시 변수를 생성 할 때에는 값과 타입 모두 바꿀 수 있음
 }
