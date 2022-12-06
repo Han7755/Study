@@ -6,6 +6,7 @@ fn main() {
         println!("{}", elements);
     }
     for number in (1..4).rev() {
+        // (1..4)는 파이썬에서 range(1,4)와 같다고 볼 수 있고, .rev()는 이들의 순서를 뒤집어준다.
         println!("{}", number);
     }
 }
