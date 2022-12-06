@@ -14,4 +14,6 @@ fn main() {
     println!("Value of number = {}", number);
 
     // let number = if condition { 5 } else { "six" }; <- 컴파일 타임에 타입이 명확하지 않으므로 오류 발생
+
+    // 무한루프를 사용하려면 loop문 사용
 }
