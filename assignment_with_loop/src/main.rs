@@ -4,7 +4,7 @@ fn main() {
     let result = loop{
         counter += 1;
         if counter == 10{
-            break counter * 2; // 
+            break counter * 2; // counter * 2를 반환하며 루프 종료 
         }
     }
 }
